@@ -1,0 +1,111 @@
+/* Global Styles */
+body {
+  background-color: #e0f2f7;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.navbar {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.navbar-brand img {
+  height: 35px;
+  width: auto;
+  margin-right: 15px;
+}
+
+.navbar-location {
+  font-size: 1rem;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-location i {
+  margin-right: 5px;
+}
+
+.navbar-nav-right .nav-link,
+.navbar-nav-right .btn {
+  font-weight: 500;
+}
+
+.navbar-nav-right .nav-link {
+  color: #333 !important;
+  margin-right: 20px;
+}
+
+.navbar-nav-right .btn {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 50px;
+}
+/* Promo Images */
+.promo-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+/* Card hover effect */
+.card {
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+/* Filter button group */
+.btn-toggle-group .btn {
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+/* Section Titles */
+.section-title {
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.section-subtitle {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Footer Links */
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .btn-toggle-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .navbar .ms-auto {
+    margin-top: 1rem;
+  }
+
+  .breadcrumb {
+    font-size: 0.9rem;
+  }
+
+  .section-subtitle,
+  .section-title {
+    text-align: center;
+  }
+}

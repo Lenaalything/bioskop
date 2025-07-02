@@ -1,0 +1,106 @@
+body {
+  background: linear-gradient(135deg, #fff 0%, #dbf6fa 100%);
+}
+
+.navbar {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.navbar-brand img {
+  height: 35px;
+  width: auto;
+  margin-right: 15px;
+}
+
+.navbar-location {
+  font-size: 1rem;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-location i {
+  margin-right: 5px;
+}
+
+.navbar-nav-right .nav-link,
+.navbar-nav-right .btn {
+  font-weight: 500;
+}
+
+.navbar-nav-right .nav-link {
+  color: #333 !important;
+  margin-right: 20px;
+}
+
+.navbar-nav-right .btn {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 50px;
+}
+
+.card-title {
+  font-size: 1.05rem;
+}
+.card-img-top {
+  aspect-ratio: 2/3;
+  object-fit: cover;
+}
+@media (max-width: 575px) {
+  .navbar-brand {
+    font-size: 1.2rem !important;
+  }
+  h1 {
+    font-size: 1.4rem !important;
+  }
+  .jadwal > div {
+    min-width: 70px;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+  .accordion-button img {
+    width: 70px !important;
+  }
+  .accordion-button .fs-2 {
+    font-size: 1.1rem !important;
+  }
+  .accordion-button .ms-4 {
+    margin-left: 1rem !important;
+  }
+}
+
+.custom-tabs {
+  border-bottom: none;
+  position: relative;
+}
+.custom-tabs .nav-link {
+  border: none;
+  background: none;
+  color: #222;
+  font-size: 0.95rem;
+  padding-left: 0.5rem;
+  padding-right: 1.5rem;
+}
+.custom-tabs .nav-link.active {
+  border: none;
+  border-bottom: 2px solid #000;
+  color: #000;
+  background: none;
+}
+.custom-tabs::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background: #cfd8dc;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+.my-accordion .accordion-button::after {
+  margin-right: 2rem;
+}
